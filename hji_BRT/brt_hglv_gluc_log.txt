@@ -1,0 +1,1056 @@
+
+
+Execution Script for computing the BRT of Hybrid gLV systems: Glucose
+Utilizing Mo Chen's Optimized DP Toolbox
+willsharpless@berkeley.edu or ucsd.edu
+Created April 14, 2021
+Executed July 16, 2021
+
+Driving to xd of 0.31mM Glucose ----------------------------------------------------------
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.02212827988338192
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.010061432736359848
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.005003123698458975
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.005641399416909621
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.007943565181174509
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0020918367346938775
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0017482299042065803
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0021043315285297786
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.003751561849229487
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0015649729279466887
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0014035818408996248
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0016326530612244894
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.004129529362765514
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0018408996251561846
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0015649729279466887
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.00147542690545606
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.008179925031236983
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.002213660974593919
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0019127446897126193
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.002117867555185339
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0024250312369845893
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0011120366513952518
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009995835068721363
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0011130778842149104
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.001645147855060391
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009683465222823822
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0008683881715951686
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009516867971678466
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0017753019575177007
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0010745522698875467
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009641815910037483
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009214910453977509
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.003387130362349021
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0014723032069970843
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0013754685547688462
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0014723032069970843
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0016472303206997083
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009527280299875052
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.000871511870054144
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009464806330695542
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0012775926697209494
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0008600583090379007
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0007226155768429819
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0007653061224489794
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0013640149937526028
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.000935027072053311
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.000786130778842149
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0007611411911703456
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.003464181591003748
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0015535193669304454
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.00142753019575177
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0014723032069970843
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0016867971678467303
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0010016659725114534
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.000930862140774677
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009558517284464806
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.001329654310703873
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009173261141191168
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0007705122865472718
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0007882132444814661
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0013057059558517282
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009017076218242398
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0007705122865472718
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0006049562682215742
+   done in 0.6 minutes
+
+wrote volumes to hybrid_BRT_glucose_gLV_volumes0.31mM Glucose.npy
+
+
+Driving to xd of 1mM Glucose ----------------------------------------------------------
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.09170762182423989
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.08894835485214493
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.07202936276551436
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0385630987088713
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.08240837151187005
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.03975114535610162
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.020091628488129946
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.021660766347355268
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03536130778842149
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.018389212827988336
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.00904935443565181
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.011653477717617657
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03545085381091211
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.01949916701374427
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.011098500624739691
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.00748542274052478
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.08133590170762181
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.038859850062473965
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.01996459808413161
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.016296334860474798
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.02628800499791753
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.007204289879216992
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0021761765930862135
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0033288213244481463
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.013942107455226987
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0020116618075801747
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0011849229487713453
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0015170762182423986
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.014255518533944187
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.002797792586422324
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0015243648479800079
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0014244064972927944
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.035080174927113704
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.01789254477301124
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.008881715951686795
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.006929404414827154
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.014077467721782588
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.001927321949187838
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0012057476051645145
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0014983340274885462
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0050801749271137025
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0011838817159516867
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0008027905039566846
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0008975426905456058
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.005171803415243648
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0013983756768013325
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0009381507705122864
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0008881715951686796
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0339868804664723
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.01768117451062057
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.008374635568513119
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.006662848812994584
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.013603706788837981
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0021813827571845064
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0013515201999167012
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.001484798000832986
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.005010412328196584
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0013369429404414823
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0008923365264473135
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009194085797584338
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.004639733444398167
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0012723865056226572
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0008840066638900458
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0006538942107455226
+   done in 0.6 minutes
+
+wrote volumes to hybrid_BRT_glucose_gLV_volumes1mM Glucose.npy
+
+
+Driving to xd of 3.1mM Glucose ----------------------------------------------------------
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06570491461890877
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06590691378592252
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06854643898375676
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07836318200749685
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06609850062473968
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06552165764264889
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0683548521449396
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07844231570179092
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06943356934610577
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06829133694294043
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06835693461057891
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0784673052894627
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.07796230737192836
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.07793940024989586
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.07789046230737191
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07848708871303622
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06573823406913784
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06584860474802165
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06848812994585589
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07826530612244896
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06595689296126613
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06000208246563931
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06602561432736359
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07816326530612243
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06848812994585589
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06490941274468971
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06482923781757599
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07479800083298625
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.07639941690962097
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.07639629321116201
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.07522594752186587
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.06665035401915867
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06667326114119117
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06657746772178258
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06845481049562681
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07801228654727196
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06667534360683047
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.061600374843815066
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06407330279050394
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.06882132444814659
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06651499375260307
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.05774885464389836
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0017659308621407743
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.001504581424406497
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.07082361516034985
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.05028633902540608
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0016180758017492708
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0007809246147438566
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06966264056643065
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06965847563515201
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.07109641815910037
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.07792586422324031
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0696761765930862
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.06591732611411912
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.06649521032902957
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05905143690129112
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06961682632236567
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.04910870470637233
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0012286547271970012
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0009225322782174094
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.06945439400249895
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.03477092877967513
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0007653061224489794
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.00039670970428987916
+   done in 0.6 minutes
+
+wrote volumes to hybrid_BRT_glucose_gLV_volumes3.1mM Glucose.npy
+
+
+Driving to xd of 10mM Glucose ----------------------------------------------------------
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.015792378175760097
+   done in 0.8 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.01623698458975427
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03234798000832986
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05293211162015826
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.016988754685547686
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.016230737192836315
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.032345897542690544
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05291649312786339
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03384319033735943
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.032351103706788835
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03237401082882132
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05282174094127446
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.05292586422324031
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.05292586422324031
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.05292586422324031
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 0.31mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05319554352353185
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.01695231153685964
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.01699396084964598
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03237088713036234
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05291336942940441
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.016974177426072466
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.008211162015826737
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0321314035818409
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05291232819658476
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.033822365680966256
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.03214493960849646
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03214910453977509
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.052817576009995836
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.0529060807996668
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.0529060807996668
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.0529060807996668
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.053130987088713034
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.023978550603915034
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.02451374427321949
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03237817576009996
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05234902124114952
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.02467097042898792
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.019223240316534777
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03193981674302374
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05257705122865472
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03214285714285714
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.030097875885047892
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03181382757184507
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.04979487713452727
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.04966680549770928
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.049544981257809234
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.04805810079133693
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 3.1mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.04227821740941274
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03018221574344023
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.031008954602249058
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03884110787172011
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 0.31mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05233652644731361
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.031203665139525195
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.024928154935443564
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03826738858808829
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.05245210329029571
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.03421699291961682
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.03081945022907122
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.03484798000832986
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 3.1mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.04003331945022907
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 0.31mM Glucose ...
+   Volume of V=0 Isosurface 0.031018325697625984
+   done in 0.7 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 1mM Glucose ...
+   Volume of V=0 Isosurface 0.025987088713036233
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 3.1mM Glucose ...
+   Volume of V=0 Isosurface 0.022059558517284465
+   done in 0.6 minutes
+
+ Computing BRT of Switch Order: 10mM Glucose - > 10mM Glucose - > 10mM Glucose ...
+   Volume of V=0 Isosurface 0.0002675968346522282
+   done in 0.6 minutes
+
+wrote volumes to hybrid_BRT_glucose_gLV_volumes10mM Glucose.npy
+
+
+
+He Terminado
+03:22:02
+July 16, 2021
